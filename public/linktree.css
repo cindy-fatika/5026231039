@@ -1,0 +1,94 @@
+body {
+  background: linear-gradient(to bottom, #fce1e4, #ffffff);
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+  
+  .container {
+    max-width:600px;
+    margin-top: 40px;
+  }
+  
+  .product-img {
+    width: 120px;
+    height: 10px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+  }
+  
+  
+  .olipop-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+  }
+  
+  .olipop-handle {
+    color: gray;
+    font-size: 14px;
+  }
+  
+  .link-button {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    border-radius: 2px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    transition: 0.2s;
+    text-align: center;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .link-button:hover {
+    background-color: #e1c8c8;
+    text-decoration: none;
+  }
+  
+  .olipop-name i {
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
+  .olipop-img {
+    width: 120px;   
+    height: 120px;
+    border-radius: 50%;   
+    object-fit: cover;
+  }
+  
+  .footer-icons {
+    margin-top: 40px;
+  }
+  
+  .social-icons i {
+    color: black;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .social-icons i:hover {
+    transform: scale(1.2);
+  }
+  
+  .join-linktree {
+    background-color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .join-linktree:hover {
+    background-color: #f0f0f0;
+  }
+  
