@@ -1,5 +1,4 @@
-NoteAI
-AI
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,13 +34,13 @@ AI
                 <a class="nav-link" href="/pegawai">Pegawai</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">kertas</a>
+                <a class="nav-link" href="/kertas"></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">EAS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 1</a>
+                <a class="nav-link" href="/pagecounter">Latihan 1</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Latihan 2</a>

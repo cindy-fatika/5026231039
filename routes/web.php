@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\KertasController;
+use App\Http\Controllers\PageCounterController;
 
 
 // pembahasan java: import java.io (use: di php)
@@ -147,3 +148,5 @@ Route::get('/kertas/tambah', [KertasController::class, 'tambahkertas']);
 Route::get('/kertas/cari', [kertasController::class, 'cari']);
 Route::get('/kertas/tambah', [kertasController::class, 'tambahkertas']);
 
+//route pagecounter
+Route::get('/', [PageCounterController::class, 'tampil']);
