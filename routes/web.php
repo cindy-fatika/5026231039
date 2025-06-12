@@ -5,6 +5,7 @@ use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
+use App\Http\Controllers\KertasController;
 
 
 // pembahasan java: import java.io (use: di php)
@@ -139,3 +140,10 @@ Route::post('/pegawai/update',[PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 
 Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
+
+//route CRUD Kertas
+Route::get('/kertas', [kertasController::class, 'kertas']);
+Route::get('/kertas/tambah', [KertasController::class, 'tambahkertas']);
+Route::get('/kertas/cari', [kertasController::class, 'cari']);
+Route::get('/kertas/tambah', [kertasController::class, 'tambahkertas']);
+
